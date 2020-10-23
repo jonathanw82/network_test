@@ -37,7 +37,7 @@ So the file opencmd is now redundant, however, I have left it in as a reminder t
 * The user can see what is going on in the terminal window.
 
 <div align="center">
-<img src="https://github.com/jonathanw82/network_test/blob/main/images/network.gif" alt="program gif" width="50%"/></div>
+<img src="https://github.com/jonathanw82/network_test/blob/main/images/network.gif" alt="program gif" width="80%"/></div>
 
 ## Credit:
 
