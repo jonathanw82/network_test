@@ -39,7 +39,7 @@ So the file opencmd is now redundant, however, I have left it in as a reminder t
 ##
 <div align="center">
 <img src="https://github.com/jonathanw82/network_test/blob/main/images/network.gif" alt="program gif" width="80%"/></div>
-##
+
 
 ## Credit:
 
