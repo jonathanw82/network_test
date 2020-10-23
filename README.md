@@ -14,7 +14,7 @@ every 2 seconds up to 8 times.
 
 In the meantime, if an internet connection is detected, the program will display connection established, then boot the Jukebox software removing the problem of any security issues.
 
-After 8 times if a connection is not detected, the program will display, no internet connection and then close.
+After 8 times if a connection is not detected, the program will display, no internet connection and then reboot the computer.
 
 After writing the program it was then converted to a (.exe) file, by auto-py-to-exe to make the program easily executable on a windows platform.
 ##

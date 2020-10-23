@@ -65,4 +65,8 @@ else:
     time.sleep(2)
     print('\nConnection Check Stopped', end="")
     trailingDots('stopping')
+    time.sleep(2)
+    print('\nSystem Rebooting!', end="")
+    trailingDots('stopping')
     time.sleep(4)
+    os.system("shutdown /r /t 1")
