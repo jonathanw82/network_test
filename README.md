@@ -5,14 +5,18 @@
 
 # Internet Connection Test
 This program was created because my digital jukebox software requires an internet connection to run.
-Most times the computer is first booted up, the jukebox software will boot before an internet connection has been established, this will cause a security error and the software will then hang.
+Most times after the computer is first booted, the jukebox software will boot before an internet connection has been established, this will cause a security error and the software will then hang.
+
 Even if a connection is established after the software has booted the security issue will remain.
 
-This program gets around this by booting at startup, opening a command prompt and displaying that it is testing for an internet connection every 2 seconds up to 8 times. 
-If a connection is established the program will display that a connection is established then boot the Jukebox software removing the problem of any security issues.
-After 8 times of no connection, the program will display, that a there is no internet connection and then close.
+This program gets around this, by booting at startup, opening a command prompt, displaying that it is testing for an internet connection. It will then test the connection 
+every 2 seconds up to 8 times.
 
-After writing the program it was then converted to a .exe file by auto-py-to-exe to the make the program executable on a windows platform.
+In the meantime, if an internet connection is detected, the program will display connection established, then boot the Jukebox software removing the problem of any security issues.
+
+After 8 times if a connection is not detected, the program will display, no internet connection and then close.
+
+After writing the program it was then converted to a (.exe) file, by auto-py-to-exe to make the program easily executable on a windows platform.
 
 
 #### The users goals of this program are:
