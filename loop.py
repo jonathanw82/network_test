@@ -30,7 +30,7 @@ print("\nChecking For Internet Connection\n")
 
 
 # Main loop
-for x in range(8):
+for x in range(1):
     try:
         # Create a connect to the web server on http port 80
         socket.create_connection(('Google.com', 80))
@@ -63,8 +63,7 @@ else:
     print('\nSTOPPING', end='')
     trailingDots('loading')
     time.sleep(2)
-    print('\nConnection Check Stopped', end="")
-    trailingDots('stopping')
+    print('\nConnection Check Stopped')
     time.sleep(2)
     print('\nSystem Rebooting!', end="")
     trailingDots('stopping')
