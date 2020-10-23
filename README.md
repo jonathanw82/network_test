@@ -17,6 +17,11 @@ In the meantime, if an internet connection is detected, the program will display
 After 8 times if a connection is not detected, the program will display, no internet connection and then close.
 
 After writing the program it was then converted to a (.exe) file, by auto-py-to-exe to make the program easily executable on a windows platform.
+##
+
+Originally I added a file called opencmd.py that opened a Windows command prompt and started the loop.exe. however, I soon realised this was not necessary as the loop.exe booted in the correct manner as intended. 
+
+So the file opencmd is now redundant, however, I have left it in as a reminder to myself of how the windows command line can be run from a python file.
 
 
 #### The users goals of this program are:
@@ -35,8 +40,11 @@ After writing the program it was then converted to a (.exe) file, by auto-py-to-
 ## Credit:
 
 loop.py
+
 https://docs.python.org/3/howto/sockets.html
+
 https://www.youtube.com/watch?v=H5xpMj_-vAo
+
 https://dev.to/eshleron/how-to-convert-py-to-exe-step-by-step-guide-3cfi
 
 opencmd.py
