@@ -9,6 +9,7 @@ os.system('color 0A')
 
 # File to be booted only if an established network connection detected
 bootfile = "C:/Program Files (x86)/touchjams/touchjams.exe"
+countdown = 11
 
 
 # This function adds the dots to the loading lines depending on type
@@ -30,7 +31,7 @@ print("\nChecking For Internet Connection\n")
 
 
 # Main loop
-for x in range(1):
+for x in range(10):
     try:
         # Create a connect to the web server on http port 80
         socket.create_connection(('Google.com', 80))
@@ -43,7 +44,8 @@ for x in range(1):
             print('LOADING', end='')
             # Add the trailing dots to the inline print statment with end=''
             trailingDots('loading')
-            print('No Connection')
+            countdown -= 1
+            print('', countdown, 'No Connection')
             time.sleep(2)
             continue  # Do the loop again
     else:
